@@ -1,9 +1,7 @@
-function inchToFeet(inch, miles){
+function inchToFeet(inch){
     const feet = inch/12;
-    const kilometer = miles*1.6
-    console.log(kilometer)
     return feet
 }
 
-let feet= inchToFeet(60,20);
+let feet= inchToFeet(60); // Parameter passing
 console.log(feet)
